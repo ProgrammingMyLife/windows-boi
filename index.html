@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  
+<script src="https://use.fontawesome.com/d2b10b6ed5.js"></script>
+
+</head>
+<html>
+
+</style>
+<body id="body">
+
+  <div class="settings" id="settings">
+    <div class="settings">
+  <a>Opacity</a>
+  <input type="range" min="1" max="10" value="5" class="slider" id="myRange" oninput="opacity()">
+<br>
+</div>
+  <a>Header Color</a>
+  <input type="color" id="color">
+  <button onclick="colorChange()">Submit</button>
+  <br>
+  <a>Body Color</a>
+  <input type="color" id="buttoncolor">
+  <button onclick="bodyChange()">Submit</button>
+  <br>
+  <a>Text Color</a>
+  <input type="color" id="textcolor">
+  <button onclick="changeColor()">Submit</button>
+
+  <br>
+  <a>Width</a>
+  <input type="range" min="1" max="1000" value="600" class="slider" id="WIDTH" oninput="changeWidth()">
+  <br>
+  <a>Height</a>
+  <input type="range" min="1" max="1000" value="600" class="slider" id="HEIGHT" oninput="changeHeight()">
+  <br>
+  <a>Border Radious</a>
+  <input type="range" min="1" max="100" value="1" class="slider" id="Radious" oninput="radius()">
+  <br>
+  <a>Header Text</a>
+  <input type="text" id="headertext" onkeyup="headertext()">
+  <br>
+  <a>Body Text</a>
+  <input type="text" id="bodytext" onkeyup="bodytext()">
+
+</div>
+ 
+
+
+<div id="mydiv">
+  <div id="mydivheader">Click here to move 
+  </div>
+  <p id="text">Your text here</p>
+
+
+    
+</div>
+
+
+
+
+
+<script src="drag.js"></script>
+<script src="resize.js"></script>
+<script src="slider.js"></script>
+<script src="clone.js"></script>
+<script src="color.js"></script>
+<script src="changeStyle.js"></script>
+
+
+
+</body>
+</html>
